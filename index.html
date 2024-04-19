@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Assignment 02</title>
+  </head>
+  <body>
+    <!-- Phần banner -->
+    <div class="banner">
+      <img class="image-banner" src="./images/banner.jpg" alt="banner" />
+      <div class="text-banner">
+        <h1>Jimmy Dương</h1>
+        <!--Có phần css để định vị các text này vào giữ hình banner-->
+        <span>Full Stack Developer</span
+        ><!--Có phần css để định vị các text này vào giữ hình banner-->
+      </div>
+      <!-- Phần navigation bar -->
+    </div>
+    <nav class="nav-bar">
+      <div class="menu">
+        <i class="icon-user"></i>
+        <a href="#"> Thông tin</a>
+      </div>
+      <div class="menu">
+        <i class="icon-doc-text-inv"></i>
+        <a href="#">Lý lịch</a>
+      </div>
+      <div class="menu1">
+        <h2>Jimmy Dương</h2>
+        <span>Full Stack Developer</span>
+        <img src="./images/hinhtoi.jpg" class="hinhdaidien" alt="hinhtoi" />
+        <!--Chèn hình ảnh vào giữa Nav bar-->
+      </div>
+      <div class="menu">
+        <i class="icon-mail-alt"></i>
+        <a href="#">Chứng chỉ</a>
+      </div>
+      <div class="menu">
+        <i class="icon-star-1"></i>
+        <a href="#">Dự Án</a>
+      </div>
+    </nav>
+    <!-- Phần thông tin cá nhân	 -->
+    <div class="thongtincanhan">
+      <!--lớp thông tin cá nhân được hiển thị theo grid layout và chia thành 2 cột-->
+      <div class="target1">
+        <!--cột thứ nhất-->
+        <h1 class="h1-title">Mục tiêu nghề nghiệp</h1>
+        <p>
+          Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp của
+          FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+          <b>Fullstack Developer</b>, có thể vận dụng những kiến thức đã được
+          trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như hoàn
+          thành tốt nhất công việc được giao.
+        </p>
+      </div>
+      <div class="info">
+        <!--Cột thứ 2-->
+        <h1 class="h1-title">Thông tin cá nhân</h1>
+        <ul class="mt-40 info">
+          <li>
+            <span><b>Giới tính</b></span> : Nam
+          </li>
+          <li>
+            <span><b>Ngày sinh</b></span> : 17/09/1987
+          </li>
+          <li>
+            <span><b>Điện thoại</b></span> : (+84) 932441783
+          </li>
+          <li>
+            <span><b>Email</b></span> : duongocy@gmail.com
+          </li>
+          <li>
+            <span><b>Địa chỉ</b></span> : Xã Tịnh Hòa, tp Quảng Ngãi
+          </li>
+          <li>
+            <span><b>Website</b></span> : https://www.facebook.com/duongocy
+          </li>
+        </ul>
+        <div class="contact-icon">
+          <!--Phần icon-->
+          <a href="#"><i class="icon-twitter"></i></a>
+          <a href="#"><i class="icon-facebook"></i></a>
+          <a href="#"><i class="icon-gplus"></i></a>
+          <a href="#"><i class="icon-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="thongtinghenghiep">
+      <!--Phần thông tin nghề nghiệp chia thành 3 cột-->
+      <div style="margin-top: 20px" class="thongtin">
+        <!--Cột 1 lớp thông tin được tạo chung cho phần hiển thị Kinh nghiệm, Học Vấn và Hoạt động-->
+        <h1 class="thongtinchitiet">Kinh nghiệm</h1>
+        <i class="ic-toolbox" style="font-size: 50px"></i>
+        <div class="thongtinchitiet">
+          <h3>Hoya Lens</h3>
+          <h5><em>From 2019 -- Current Job</em></h5>
+          <ul>
+            <li>Setup new products</li>
+            <li>Improve production efficiency</li>
+            <li>Cost reduction</li>
+            <li>Optimate production process</li>
+          </ul>
+
+          <h3 class="thongtinchitiet">Millenium Furniture</h3>
+          <h5><em>From 2018 -- 2019</em></h5>
+          <ul>
+            <li>Design packing box</li>
+            <li>Optimate logictis amount</li>
+            <li>Cost reduction</li>
+            <li>Design new arm chair products</li>
+          </ul>
+
+          <h3 class="thongtinchitiet">Foster</h3>
+          <h5><em>From 2011 -- 2017</em></h5>
+          <ul>
+            <li>Design machine</li>
+            <li>Programming</li>
+            <li>Improvement idea</li>
+            <li>Deploy new machine</li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-top: 20px" class="thongtin">
+        <!--Cột 2-->
+        <h1>Học vấn</h1>
+        <i class="ic-pencil" style="font-size: 50px"></i>
+        <div class="thongtinchitiet">
+          <h3>Funix-FPT</h3>
+          <h5><em>From 2023 -- 2024</em></h5>
+          <ul>
+            <li>Web developer - Full stack</li>
+            <li>React</li>
+            <li>Java programming</li>
+            <li>English - Speaking</li>
+          </ul>
+
+          <h3 class="thongtinchitiet">MindX</h3>
+          <h5><em>From 2023 -- 2023</em></h5>
+          <ul>
+            <li>SQL</li>
+            <li>PowerBI</li>
+            <li>Machine learning</li>
+            <li>Business Analyst</li>
+          </ul>
+
+          <h3 class="thongtinchitiet">Da Nang University</h3>
+          <h5><em>From 2005 -- 2010</em></h5>
+          <ul>
+            <li>Automation control</li>
+            <li>PIC Microchip</li>
+            <li>PLC programming</li>
+            <li>Matlab, Orcad, Autocad, Solidwork</li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-top: 20px" class="thongtin">
+        <!--Cột 3-->
+        <h1>Hoạt động</h1>
+        <i class="ic-hotairballoon" style="font-size: 50px"></i>
+        <div class="thongtinchitiet">
+          <h3>Summer warming heart</h3>
+          <h5><em>2023</em></h5>
+          <ul>
+            <li>Donation activities</li>
+            <li>Sharing with poor children</li>
+            <li>Build lovely house</li>
+          </ul>
+          <h3 class="thongtinchitiet">Funny guider</h3>
+          <h5><em>2023</em></h5>
+          <ul>
+            <li>Share Ly Son tourist information</li>
+            <li>Free booking travel tictket</li>
+            <li>Free guider to all foreinger</li>
+          </ul>
+
+          <h3 class="thongtinchitiet">Funny robot</h3>
+          <h5><em>2022</em></h5>
+          <ul>
+            <li>Design a funny romete robot for children</li>
+            <li>Installation + programming</li>
+            <li>Hold a funny champion robot examination</li>
+            <li>Gift and share</li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-top: 20px" class="kynang">
+        <!--Cột 1 Lớp kỹ năng được tạo để hiển thị chung cho phần Sở thích, ngôn ngữ và Kỹ năng-->
+        <h1>Sở Thích</h1>
+        <i class="ic-telescope" style="font-size: 50px"></i>
+        <div class="kynangchitiet">
+          <div class="sothich">
+            <i class="ic-megaphone" style="font-size: 24px"></i>
+          </div>
+          <div class="sothich">
+            <i class="ic-hotairballoon" style="font-size: 24px"></i>
+          </div>
+          <div class="sothich">
+            <i class="ic-strategy" style="font-size: 24px"></i>
+          </div>
+          <div class="sothich">
+            <i class="ic-basket" style="font-size: 24px"></i>
+          </div>
+          <p>Music</p>
+          <p>Travel</p>
+          <p>Game</p>
+          <p>Cooking</p>
+        </div>
+      </div>
+      <div style="margin-top: 20px" class="kynang">
+        <!--Cột 2-->
+        <h1>Ngôn ngữ</h1>
+        <i class="ic-mic" style="font-size: 50px"></i>
+        <div class="kynangchitiet">
+          <div>
+            <h2>English</h2>
+            <div class="skilllevel">
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+            </div>
+            <h2>Chinese</h2>
+            <div class="skilllevel">
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xam"></div>
+              <div class="xam"></div>
+            </div>
+            <h2>Japnanese</h2>
+            <div class="skilllevel">
+              <div class="xanh"></div>
+              <div class="xam"></div>
+              <div class="xam"></div>
+              <div class="xam"></div>
+            </div>
+            <h2>Vietnamese</h2>
+            <div class="skilllevel">
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 20px" class="kynang">
+        <!--Cột 3-->
+        <h1>Kỹ năng</h1>
+        <i class="ic-tools-2" style="font-size: 50px"></i>
+        <div class="kynangchitiet">
+          <div>
+            <h2>HTML/CSS</h2>
+            <div class="skilllevel">
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+            </div>
+            <h2>NodeJS</h2>
+            <div class="skilllevel">
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+            </div>
+            <h2>Python</h2>
+            <div class="skilllevel">
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+            </div>
+            <h2>SQL</h2>
+            <div class="skilllevel">
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+            </div>
+            <h2>HTML/CSS</h2>
+            <div class="skilllevel">
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+              <div class="xanh"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chungchigiaithuong">
+      <!--Phần Chứng chỉ giải thưởng theo grid layout chia thành 2 cột-->
+      <h1 class="section-title">Chứng chỉ - Giải thưởng</h1>
+      <div class="thongtinchungchi">
+        <!--Lớp thông tin chứng chỉ được dùng để hiển thị phần hình ảnh chứng chỉ và thông tin chứng chỉ-->
+        <div class="chungchi">
+          <img
+            src="./images/Cert_DBI.png"
+            alt="chungchi1"
+            style="width: 250px"
+          />
+          <div class="chitietchungchi">
+            <h5>CHỨNG CHỈ LẬP TRÌNH WEB FUNIX</h5>
+            <p>- Chứng chỉ doanh nghiệp</p>
+            <p>- GPA : 8.5</p>
+          </div>
+        </div>
+        <div class="chungchi">
+          <img
+            src="./images/Cert_DBI.png"
+            alt="chungchi1"
+            style="width: 250px"
+          />
+          <div class="chitietchungchi">
+            <h5>CHỨNG CHỈ DATA ANALYST</h5>
+            <p>- Chứng chỉ MindX</p>
+            <p>- GPA : 9.5</p>
+          </div>
+        </div>
+        <div class="chungchi">
+          <img
+            src="./images/Cert_DBI.png"
+            alt="chungchi1"
+            style="width: 250px"
+          />
+          <div class="chitietchungchi">
+            <h5>CHỨNG CHỈ BUSINESS ANALYST</h5>
+            <p>- Chứng chỉ MindX</p>
+            <p>- GPA : 9.5</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="duan">
+      <h1 class="section-title">Dự án</h1>
+      <div class="thongtinduan">
+        <!--Lớp hiển thị thông tin dự án grid layout - 2 cột vì có 2 dự án-->
+        <div class="thongtinchitietduan">
+          <!--Dự án 1-->
+          <div class="odisplay">
+            <!--Lớp ô display chứa Hình ảnh dự án-->
+            <img src="./images/duan1.png" alt="duan1" style="width: 330px" />
+          </div>
+          <div class="odisplay">
+            <!--Tên dự án-->
+            <div class="tenduan">CV cá nhân</div>
+          </div>
+          <div class="odisplay">
+            <!--Tác giả, nơi làm , người làm dựa án-->
+            <div class="tacgiaduan">
+              <div class="namduan">2021</div>
+              <div class="noilamduan">
+                <i class="icon-user-1"></i>
+                <p style="padding-left: 10px">FUNIX</p>
+              </div>
+              <div class="noilamduan">
+                <i class="icon-lamp"></i>
+                <p style="padding-left: 10px">Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="odisplay">
+            <table>
+              <!--Bảng hiển thị thông tin chi tiết dự án-->
+              <tr>
+                <td style="width: 100px">Mô tả</td>
+                <td>
+                  Trang web cá nhân, bao gồm thông tin cá nhân và các kỹ năng
+                  nghề nghiệp
+                </td>
+              </tr>
+              <tr>
+                <td>Nhiệm vụ</td>
+                <td>Viết code html/css dựa theo các nội dung đã học</td>
+              </tr>
+              <tr>
+                <td>Công nghệ</td>
+                <td>HTML/CSS</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="thongtinchitietduan">
+          <!--Dự án 2-->
+          <div class="odisplay">
+            <!--Hình ảnh-->
+            <img src="./images/duan2.png" alt="duan1" style="width: 400px" />
+          </div>
+          <div class="odisplay">
+            <!--Tên Dự án-->
+            <div class="tenduan">CV cá nhân</div>
+          </div>
+          <div class="odisplay">
+            <!--Tác giả, nơi làm, người làm-->
+            <div class="tacgiaduan">
+              <div class="namduan">2021</div>
+              <div class="noilamduan">
+                <i class="icon-user-1"></i>
+                <p style="padding-left: 10px">FUNIX</p>
+              </div>
+              <div class="noilamduan">
+                <i class="icon-lamp"></i>
+                <p style="padding-left: 10px">Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="odisplay">
+            <table>
+              <!--Bảng mô tả chi tiết-->
+              <tr>
+                <td style="width: 100px">Mô tả</td>
+                <td>
+                  Trang web cá nhân, bao gồm thông tin cá nhân và các kỹ năng
+                  nghề nghiệp
+                </td>
+              </tr>
+              <tr>
+                <td>Nhiệm vụ</td>
+                <td>Viết code html/css dựa theo các nội dung đã học</td>
+              </tr>
+              <tr>
+                <td>Công nghệ</td>
+                <td>HTML/CSS</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lienhe">
+      <!--Phần thông tin liên hệ thêm-->
+      <div class="chitietlienhe">
+        <a href="#" style="text-decoration: none">
+          <i class="icon-facebook-circled" style="color: #6073ed"></i>
+          <!--Biểu tượng-->
+          Facebook
+        </a>
+        <a href="#" style="text-decoration: none">
+          <i class="icon-linkedin-circled" style="color: #6073ed"></i
+          ><!--Biểu tượng-->
+          Linkedin
+        </a>
+        <a href="#" style="text-decoration: none">
+          <i class="icon-github-circled" style="color: #6073ed"></i
+          ><!--Biểu tượng-->
+          Github
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
